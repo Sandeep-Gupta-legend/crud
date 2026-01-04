@@ -1,0 +1,109 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  padding: 40px;
+}
+
+/* App container */
+.app {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button.cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* User list */
+h2 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  font-size: 14px;
+}
+
+.actions button {
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.actions .edit {
+  background-color: #ffc107;
+}
+
+.actions .delete {
+  background-color: #dc3545;
+  color: white;
+}
